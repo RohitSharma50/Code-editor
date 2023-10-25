@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <h1 class="head">Code Editor</h1>
+</head>
+<link rel="stylesheet" href="style.css" />
+
+<body>
+
+    <div class="main">
+
+        <div class="codePart">
+
+            <h6 class="h1"><img width="24" height="24" src="https://img.icons8.com/color/48/html-5--v1.png"
+                    alt="html-5--v1" />HTML</h6>
+            <button class="btn" onclick="myFunctionHtml()">Copy text</button>
+
+
+            <textarea id="html" placeholder="HTML"></textarea>
+            <script> function myFunctionHtml() {
+                    // Get the text field 
+
+                    var copyText = document.getElementById("html");
+
+                    // Select the text field
+                    copyText.select();
+
+                    // Copy the text inside the text field
+                    navigator.clipboard.writeText(copyText.value);
+
+                    // Alert the copied text
+
+                } </script>
+
+        </div>
+        <div class="codePart">
+
+            <h6 class="h1"><img width="24" height="24" src="https://img.icons8.com/color/24/css3.png" alt="css3" />CSS
+            </h6>
+            <button class="btn" onclick="myFunctionCss()">Copy text</button>
+
+            <textarea id="css" placeholder="CSS"></textarea>
+
+
+            <script> function myFunctionCss() {
+                    // Get the text field 
+
+                    var copyText = document.getElementById("css");
+
+                    // Select the text field
+                    copyText.select();
+
+                    // Copy the text inside the text field
+                    navigator.clipboard.writeText(copyText.value);
+
+                    // Alert the copied text
+
+                } </script>
+        </div>
+        <div class="codePart">
+            <h6 class="h1"> <img width="24" height="24" src="https://img.icons8.com/color/24/javascript--v1.png"
+                    alt="javascript--v1" />JavaScript</h6>
+            <button class="btn" onclick="myFunctionJs()">Copy text</button>
+            <textarea id="JavaScript" placeholder="JavaScript"></textarea>
+
+            <script> function myFunctionJs() {
+                    // Get the text field 
+
+                    var copyText = document.getElementById("JavaScript");
+
+                    // Select the text field
+                    copyText.select();
+
+
+                    // Copy the text inside the text field
+                    navigator.clipboard.writeText(copyText.value);
+
+                    // Alert the copied text
+
+                } </script>
+
+        </div>
+    </div>
+
+
+    <div class="output">
+        <h1 class="h2">OUTPUT</h1>
+
+        <iframe id="code"></iframe>
+    </div>
+    <script type="text/JavaScript" src="app.js"></script>
+
+
+</body>
+
+</html>

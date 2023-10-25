@@ -1,0 +1,75 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(13, 216, 67);
+}
+
+.codePart {
+    width: 100%;
+    background-color: rgb(13, 13, 2);
+    color: aliceblue;
+
+
+
+}
+
+textarea {
+    font-size: large;
+    overflow: scroll;
+    width: 100%;
+    height: 300px;
+    color: aliceblue;
+    border-radius: 2%;
+    box-sizing: border-box;
+    background-color: rgb(18, 18, 34);
+}
+
+.h1 {
+    text-align: left;
+    font-size: xx-large;
+    display: inline;
+    margin-left: 4px;
+    font-size: larger;
+    color: aliceblue;
+
+    background-color: rgb(9, 9, 11);
+
+
+}
+
+iframe {
+    width: 100%;
+    overflow: scroll;
+    height: 300px;
+    font-size: xx-large;
+}
+
+.btn {
+    float: inline-end;
+    background-color: rgb(56, 175, 116);
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.head {
+    text-align: center;
+    background-color: rgb(188, 111, 34);
+    margin: 0cap;
+    height: 7%;
+}
+
+.output {
+    text-align: center;
+}
+
+.h2 {
+    text-align: center;
+    justify-self: baseline;
+    font-size: xx-large;
+    color: aliceblue;
+    background-color: black;
+}
+
+.code {
+    font-size: xx-small;
+}
